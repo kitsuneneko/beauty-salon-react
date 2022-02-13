@@ -1,4 +1,5 @@
 import './style.scss';
+import FooterNavColumn from './footer-nav-column';
 
 const FooterNav = () => {
     return(
@@ -6,84 +7,12 @@ const FooterNav = () => {
             <div className="footer-nav-align">
                 <div className="footer-nav">
                     <div className="footer-nav-left">
-                        <div className="footer-nav-column">
-                            <div>
-                                <span>Услуги</span>
-                            </div>
-                            <nav>
-                                <ul>
-                                    <li><a href="#">Косметология</a></li>
-                                    <li><a href="#">Пластическая хирургия</a></li>
-                                    <li><a href="#">Стоматология</a></li>
-                                    <li><a href="#">Лазерная медицина</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                        <div className="footer-nav-column">
-                            <div>
-                                <span>Услуги</span>
-                            </div>
-                            <nav>
-                                <ul>
-                                    <li><a href="#">Косметология</a></li>
-                                    <li><a href="#">Пластическая хирургия</a></li>
-                                    <li><a href="#">Стоматология</a></li>
-                                    <li><a href="#">Лазерная медицина</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                        <div className="footer-nav-column">
-                            <div>
-                                <span>Услуги</span>
-                            </div>
-                            <nav>
-                                <ul>
-                                    <li><a href="#">Косметология</a></li>
-                                    <li><a href="#">Пластическая хирургия</a></li>
-                                    <li><a href="#">Стоматология</a></li>
-                                    <li><a href="#">Лазерная медицина</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                        <div className="footer-nav-column">
-                            <div>
-                                <span>Услуги</span>
-                            </div>
-                            <nav>
-                                <ul>
-                                    <li><a href="#">Косметология</a></li>
-                                    <li><a href="#">Пластическая хирургия</a></li>
-                                    <li><a href="#">Стоматология</a></li>
-                                    <li><a href="#">Лазерная медицина</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                        <div className="footer-nav-column">
-                            <div>
-                                <span>Услуги</span>
-                            </div>
-                            <nav>
-                                <ul>
-                                    <li><a href="#">Косметология</a></li>
-                                    <li><a href="#">Пластическая хирургия</a></li>
-                                    <li><a href="#">Стоматология</a></li>
-                                    <li><a href="#">Лазерная медицина</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                        <div className="footer-nav-column">
-                            <div>
-                                <span>Услуги</span>
-                            </div>
-                            <nav>
-                                <ul>
-                                    <li><a href="#">Косметология</a></li>
-                                    <li><a href="#">Пластическая хирургия</a></li>
-                                    <li><a href="#">Стоматология</a></li>
-                                    <li><a href="#">Лазерная медицина</a></li>
-                                </ul>
-                            </nav>
-                        </div>
+                        <FooterNavColumn />
+                        <FooterNavColumn />
+                        <FooterNavColumn />
+                        <FooterNavColumn />
+                        <FooterNavColumn />
+                        <FooterNavColumn />
                     </div>
                     <div className="footer-nav-right">
                         <div className="contacts">
