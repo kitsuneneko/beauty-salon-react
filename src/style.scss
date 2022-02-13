@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Gilroy-Regular';
+    src: url(./fonts/gilroy-regular.eot);
+    src: url(./fonts/gilroy-regular.svg);
+    src: url(./fonts/gilroy-regular.ttf);
+    src: url(./fonts/gilroy-regular.woff);
+    src: url(./fonts/gilroy-regular.woff2);
+}
+
+html,
+body,
+ul, ol, li, form, fieldset, legend{
+    margin: 0;
+    padding: 0;
+    border: 0;
+  font-size: 100%;
+    font: inherit;
+  vertical-align: baseline;
+}
+
+button{
+    border: none;
+}
+
+ol, ul, a{
+    list-style: none;
+    text-decoration: none;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Gilroy-Regular';
+    font-weight: 500;
+    font-style: normal;
+}
+
+.wrapper{
+    max-width: 1295px;
+    height: auto;
+    //border: 1px #292972 solid;
+    margin: 0 auto;
+}
