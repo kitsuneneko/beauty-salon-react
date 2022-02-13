@@ -1,0 +1,119 @@
+//offers
+
+.offers{
+    width: 100%;
+    height: 600px;
+}
+
+.offers-bg{
+    width: 100%;
+    height: 350px;
+    background-color: #E4F2F2;
+}
+
+.offers-content{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.offers-article{
+    margin-top: 50px;
+    span{
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 72px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #00868A;
+    }
+}
+
+.offers-items{
+    width: 100%;
+    height: 343px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.offers-item{
+    width: 306px;
+    height: 343px;
+}
+
+.offers-item-bg{
+    width: 100%;
+    height: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offers-sticker-align{
+    width: 90%;
+    height: 90%;
+}
+
+.offers-item-sticker{
+    width: 148px;
+    height: 40px;
+    background-color: #4FBFA5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    span{
+        color: white;
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: 0em;
+    }
+}
+
+#bg1{
+    background-image: url(./img/jpg/offers-bg1.jpg);
+}
+
+#bg2{
+    background-image: url(./img/jpg/offers-bg2.jpg);
+}
+
+#bg3{
+    background-image: url(./img/jpg/offers-bg3.jpg);
+}
+
+#bg4{
+    background-image: url(./img/jpg/offers-bg4.jpg);
+}
+
+.offers-item-nav{
+    width: 100%;
+    height: 113px;
+    background-color: #00868A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    div{
+        &:first-child{
+            width: 65%;
+            span{
+                color: white;
+                font-size: 21px;
+                font-weight: 700;
+                line-height: 32px;
+                letter-spacing: 0em;
+            }
+        }
+
+        &:last-child{
+            width: 50px;
+            height: 40px;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}

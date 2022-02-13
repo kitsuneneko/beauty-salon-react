@@ -1,4 +1,4 @@
-const FooterLeftNav = () => {
+const BottomLeftNav = () => {
     return(
         <div class="left-nav">
             <div>
@@ -11,4 +11,4 @@ const FooterLeftNav = () => {
     );
 };
 
-export default FooterLeftNav;
+export default BottomLeftNav;

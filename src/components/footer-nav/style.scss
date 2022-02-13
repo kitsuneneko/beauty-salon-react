@@ -1,0 +1,108 @@
+.footer-nav-align{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-nav{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-nav-left{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.footer-nav-column{
+    width: 26%;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    div{
+        span{
+            font-size: 21px;
+            font-weight: 700;
+            line-height: 32px;
+            letter-spacing: 0em;
+        }
+    }
+    nav{
+        ul{
+            li{
+                margin-bottom: 5px;
+                a{
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 21px;
+                    letter-spacing: 0em;
+                    color: black;
+                }
+            }
+        }
+    }
+}
+
+.footer-nav-right{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contacts, .address{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    span{
+        &:first-child{
+            font-size: 11px;
+            font-weight: 500;
+            line-height: 17px;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            color: rgb(177, 162, 162);
+        }
+        &:nth-child(2){
+            font-size: 21px;
+            font-weight: 700;
+            line-height: 32px;
+            letter-spacing: 0em;
+        }
+    }
+
+}
+
+.contacts{
+    height: 20%;
+}
+
+.address{
+    height: 30%;
+    div{
+        width: 164px;
+        height: 45px;
+        background-color: #00868A;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        a{
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 16px;
+            letter-spacing: 0.05em;
+            color: white;
+            text-transform: uppercase;
+        }
+    }
+}
