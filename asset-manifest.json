@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/beauty-salon-react/static/css/main.d6654e53.css",
+    "main.js": "/beauty-salon-react/static/js/main.a2a36858.js",
+    "static/media/gilroy-regular.svg": "/beauty-salon-react/static/media/gilroy-regular.752586d2b065c82fc6b1.svg",
+    "static/media/offers-bg4.jpg": "/beauty-salon-react/static/media/offers-bg4.5a9a6cb66d2691311b70.jpg",
+    "static/media/gilroy-regular.eot": "/beauty-salon-react/static/media/gilroy-regular.1d051d9d4215c09cbcaa.eot",
+    "static/media/gilroy-regular.ttf": "/beauty-salon-react/static/media/gilroy-regular.b91b0127c56a8e5f9e83.ttf",
+    "static/media/offers-bg3.jpg": "/beauty-salon-react/static/media/offers-bg3.fbcce58e8d8e15763e43.jpg",
+    "static/media/offers-bg1.jpg": "/beauty-salon-react/static/media/offers-bg1.9aa141daa44592def2b7.jpg",
+    "static/media/offers-bg2.jpg": "/beauty-salon-react/static/media/offers-bg2.cfffaeef7982e95b1158.jpg",
+    "static/media/gilroy-regular.woff": "/beauty-salon-react/static/media/gilroy-regular.31d54a4b841c0e438f13.woff",
+    "static/media/gilroy-regular.woff2": "/beauty-salon-react/static/media/gilroy-regular.00b026798f05ff9d7752.woff2",
+    "index.html": "/beauty-salon-react/index.html",
+    "main.d6654e53.css.map": "/beauty-salon-react/static/css/main.d6654e53.css.map",
+    "main.a2a36858.js.map": "/beauty-salon-react/static/js/main.a2a36858.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d6654e53.css",
+    "static/js/main.a2a36858.js"
+  ]
+}
