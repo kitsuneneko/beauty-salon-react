@@ -1,24 +1,16 @@
 import ReactDOM from 'react-dom';
-import CornerNav from './components/corner-nav';
-import Slider from './components/slider';
-import Content from './components/content';
-import Offers from './components/offers';
-import FooterNav from './components/footer-nav';
+
+import Header from './components/header';
+import Main from './components/main';
+import Footer from './components/footer';
 import './style.scss';
 
 const App = () => {
     return(
         <div>
-            <header>
-                <CornerNav value={"header"}/>
-                <Slider />
-            </header>
-            <Content />
-            <Offers />
-            <footer>
-                <FooterNav />
-                <CornerNav value={"bottom"}/>
-            </footer>
+            <Header />
+            <Main />
+            <Footer />
         </div>
     );
 };

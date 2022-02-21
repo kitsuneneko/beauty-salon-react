@@ -1,27 +1,18 @@
-////main-nav
-
-.main-nav, .bottom-nav{
-    display: flex;
-    width:100%;
-    height: 90px;
-}
-
-
-.left-nav, .right-nav{
+.corner-left-nav, .corner-right-nav{
     div{
         border-left: 1px solid #C4C4C4;
     }
 }
 
-.center-nav{
+.corner-center-nav{
     border-left: 1px solid #C4C4C4;
 }
 
-.right-nav{
+.corner-right-nav{
     border-right: 1px solid #C4C4C4;
 }
 
-.left-nav{
+.corner-left-nav{
     display: flex;
     width: 644px;
     height: 100%;
@@ -43,7 +34,7 @@
     }
 }
 
-.center-nav{
+.corner-center-nav{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -69,7 +60,7 @@
     }
 }
 
-.right-nav{
+.corner-right-nav{
     display: flex;
     height: 100%;
     width: 320px;
@@ -80,12 +71,6 @@
         height: 100%;
         width: 100%;
     }
-}
-
-//bottom-nav
-
-.bottom-nav{
-    border-top: 1px #C4C4C4 solid;
 }
 
 .bottom-nav-span{

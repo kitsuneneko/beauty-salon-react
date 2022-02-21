@@ -1,36 +1,19 @@
 import './style.scss'
-import HeaderLeftNav from './header-left-nav';
-import BottomLeftNav from './bottom-left-nav';
+import Logo from './logo';
+import Contacts from './contacts';
+import DropDownList from './drop-down-list';
+import SwitchSiteBtn from './switch-site-btn';
+import SocialLinks from './social-links';
+import Copyright from './copyright';
+import PolicyLink from './policy-link';
 
 
-const CornerNav = ({ value }) => {
-    return(
-        <div className="wrapper">
-            <div className={ value == "header" ? "main-nav" : "bottom-nav" }>
-                { value == "header" ? <HeaderLeftNav/> : <BottomLeftNav/> }
-                <div className="center-nav">
-                        <div>
-                            <img src="img/svg/eye.svg" />
-                            <span>ВЕРСИЯ ДЛЯ СЛАБОВИДЯЩИХ</span>
-                        </div>
-                </div>
-                <div className="right-nav">
-                    <div>
-                        <img src={"img/svg/vk.svg"} />
-                    </div>
-                    <div>
-                        <img src={"img/svg/youtube.svg"} />
-                    </div>
-                    <div>
-                        <img src={"img/svg/facebook.svg"} />
-                    </div>
-                    <div>
-                        <img src={"img/svg/instagram.svg"} />
-                    </div>
-                </div>
-            </div>
-        </div>
-    );
+export {
+    Logo,
+    Contacts,
+    DropDownList,
+    SwitchSiteBtn,
+    SocialLinks,
+    Copyright,
+    PolicyLink
 };
-
-export default CornerNav;
