@@ -22,14 +22,14 @@ const FooterNav = () => {
                         <div className="address">
                             <span>адрес</span>
                             <span>Невский пр. 140, пом. 10</span>
-                            <div>
+                            <div className='btn'>
                                 <a href="#">как проехать?</a>
                             </div>
                         </div>
                         <div className="address">
                             <span>адрес</span>
                             <span>Большой пр. 12</span>
-                            <div>
+                            <div className='btn'>
                                 <a href="#">как проехать?</a>
                             </div>
                         </div>

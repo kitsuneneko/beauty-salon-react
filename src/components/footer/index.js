@@ -1,3 +1,4 @@
+import './style.scss';
 import FooterNav from "../footer-nav";
 import BottomNav from "../bottom-nav";
 

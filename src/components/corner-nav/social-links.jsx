@@ -2,16 +2,24 @@ const SocialLinks = () => {
     return(
         <div className="corner-right-nav">
             <div>
-                <img src={"img/svg/vk.svg"} />
+                <a href="#">
+                    <img src={"img/svg/vk.svg"} />
+                </a>
             </div>
             <div>
-                <img src={"img/svg/youtube.svg"} />
+                <a href="#">
+                    <img src={"img/svg/youtube.svg"} />
+                </a>
             </div>
             <div>
-                <img src={"img/svg/facebook.svg"} />
+                <a href="#">
+                    <img src={"img/svg/facebook.svg"} />
+                </a>
             </div>
             <div>
-                <img src={"img/svg/instagram.svg"} />
+                <a href="#">
+                    <img src={"img/svg/instagram.svg"} />
+                </a>
             </div>
         </div>
     );
